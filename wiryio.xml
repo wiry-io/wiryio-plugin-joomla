@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.x" type="plugin" group="system" method="upgrade">
+	<name>Wiry.io Cookie-less Chat, Popups and Analytics</name>
+	<author>Wiry.io</author>
+	<creationDate>Jan 2021</creationDate>
+	<copyright>Copyright (C) 2021 Wiry Solutions OU. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>https://wiry.io/?ref=joomla</authorUrl>
+	<version>1.0.0</version>
+	<description>	<![CDATA[
+	For installation instructions please visit <a href="https://docs.wiry.io/" target="_blank">Wiry.io Documentation</a>.<br /><br />
+	]]></description>
+	<files>
+		<filename plugin="wiryio">wiryio.php</filename>
+	</files>
+	<config>
+	  <fields name="params" addfieldpath="/plugins/system">
+	  	<fieldset name="basic">
+			  <field name="account_id" type="text" default="" label="Account ID" description="Enter your Account ID (17 characters)"/>
+			</fieldset>		
+	  </fields>
+	</config>		
+</extension>
