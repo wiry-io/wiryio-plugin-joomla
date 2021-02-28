@@ -1,10 +1,10 @@
-# Wiry.io Cookie-less Chat, Popups and Analytics
+# Wiry.io - Acquire and delight customers
 
-Version: 1.0.0
+Version: 1.0.1
 
 License: GPLv2
 
-Easy-to-use live chat, popups and web analytics without cookies.
+Acquire and delight customers with cookie-less, privacy-friendly live chat, popups and web analytics.
 
 ## Description
 
@@ -12,7 +12,7 @@ Easy-to-use live chat, popups and web analytics without cookies. Compliant with 
 
 ## What is Wiry.io?
 
-Wiry.io is a cookie-less platform for modern websites featuring easy-to-use live chat, popups, web analytics and links. Learn more at [Wiry.io](https://wiry.io/?ref=joomla)
+Wiry.io is a cookie-less platform for modern websites. Learn more at [Wiry.io](https://wiry.io/?ref=joomla)
 
 ### Benefits
 
@@ -34,6 +34,11 @@ Learn more at [Wiry.io](https://wiry.io/?ref=joomla).
 5. Set up your Account ID in the plugin settings
 
 ## Changelog
+
+__1.0.1__
+
+- New tracking script
+- Custom config options
 
 __1.0.0__
 

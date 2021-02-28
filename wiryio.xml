@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.x" type="plugin" group="system" method="upgrade">
-	<name>Wiry.io Cookie-less Chat, Popups and Analytics</name>
+	<name>Wiry.io - Acquire and delight customers</name>
 	<author>Wiry.io</author>
 	<creationDate>Jan 2021</creationDate>
 	<copyright>Copyright (C) 2021 Wiry Solutions OU. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorUrl>https://wiry.io/?ref=joomla</authorUrl>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>	<![CDATA[
 	For installation instructions please visit <a href="https://docs.wiry.io/" target="_blank">Wiry.io Documentation</a>.<br /><br />
 	]]></description>
@@ -17,6 +17,9 @@
 	  <fields name="params" addfieldpath="/plugins/system">
 	  	<fieldset name="basic">
 			  <field name="account_id" type="text" default="" label="Account ID" description="Enter your Account ID (17 characters)"/>
+			  <field name="extras" type="textarea" rows="12" default="" label="Expert configuration (JSON)" description="Extra configuration options as JSON object."/>
+			  <field name="script_version" type="text" default="1.0" label="Script version" description=""/>
+			  <field name="domain" type="text" default="" label="Custom domain" description="Change only if you're using a custom domain name"/>
 			</fieldset>		
 	  </fields>
 	</config>		
